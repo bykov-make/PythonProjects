@@ -17,21 +17,22 @@ clock = sg.Text("", key="clock")
 label = sg.Text("Type in a To-Do:")
 input_box = sg.InputText(tooltip="Enter a To Do", key='todo')
 add_button = functions.create_image_button('add.png', size=6,
-                                           mouseover_colors="lightBlue2", tooltip='Add A ToDo', key='ADD')
+                                           mouseover_colors="lightBlue2", tooltip='Add A ToDo', key='Add')
 list_box = sg.Listbox(values=functions.get_todos(), key='todos',
                       enable_events=True, size=[45, 10])
-edit_button = sg.Button('Edit')
+edit_button = functions.create_image_button('edit.png', size=6,
+                            mouseover_colors='lightBlue2', tooltip='Edit the Task', key='Edit')
 complete_button = functions.create_image_button('complete.png', size=6,
                             mouseover_colors='lightBlue2', tooltip='Complete the Task', key='Complete')
-exit_button = sg.Button('Exit')
+exit_button = functions.create_image_button('close.png', size=2, mouseover_colors='lightBlue2',
+                                            tooltip='Close the App', key='Exit')
 
 '''Create the window instance'''
 
 window = sg.Window("My Scheduler App",
                    layout= [[clock],[label],
                             [input_box,add_button],
-                            [list_box, edit_button, complete_button],
-                            [exit_button]],
+                            [list_box], [edit_button, complete_button, exit_button]],
                    font=(["monospace", 16]))
 
 while True:
