@@ -4,16 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12763f89-1606-440f-8a1f-68e21f43c1e1" name="Changes" comment="Implement &quot;Add Todo&quot;">
-      <change afterPath="$PROJECT_DIR$/.idea/PythonProjects.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scheduler/functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scheduler/gui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchedulerWebApp/schedulerWeb.py" beforeDir="false" afterPath="$PROJECT_DIR$/SchedulerWebApp/schedulerWeb.py" afterDir="false" />
+    <list default="true" id="12763f89-1606-440f-8a1f-68e21f43c1e1" name="Changes" comment="Modify icons for Add and Complete &#10;Include Icons for Edit and Exit.">
+      <change beforePath="$PROJECT_DIR$/.idea/PythonProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_projects.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scheduler/files/images/add.png" beforeDir="false" afterPath="$PROJECT_DIR$/scheduler_desktop/files/images/add.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scheduler/files/images/close.png" beforeDir="false" afterPath="$PROJECT_DIR$/scheduler_desktop/files/images/close.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scheduler/files/images/complete.png" beforeDir="false" afterPath="$PROJECT_DIR$/scheduler_desktop/files/images/complete.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scheduler/files/images/edit.png" beforeDir="false" afterPath="$PROJECT_DIR$/scheduler_desktop/files/images/edit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scheduler/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/scheduler_desktop/functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scheduler/gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/scheduler_desktop/gui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchedulerWebApp/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/scheduler_web/functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchedulerWebApp/schedulerWeb.py" beforeDir="false" afterPath="$PROJECT_DIR$/scheduler_web/scheduler_web.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,38 +32,38 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "bykov-make"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;bykov-make&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/bykov-make/PythonProjects.git",
-    "accountId": "eea21064-9d37-4cb3-820c-85769821a874"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/bykov-make/PythonProjects.git&quot;,
+    &quot;accountId&quot;: &quot;eea21064-9d37-4cb3-820c-85769821a874&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="34nIPtUYs8c9yB2eXku7GIPgXO1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.functions.executor": "Run",
-    "Python.gui.executor": "Run",
-    "Python.schedulerWeb.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/bykov/PycharmProjects/PythonProjects/SchedulerWebApp",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.functions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gui.executor&quot;: &quot;Run&quot;,
+    &quot;Python.schedulerWeb.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/bykov/PycharmProjects/PythonProjects/SchedulerWebApp&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\bykov\PycharmProjects\PythonProjects\SchedulerWebApp" />
@@ -102,7 +104,31 @@
       <option name="project" value="LOCAL" />
       <updated>1761851833843</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Implement Delete Marked todo">
+      <option name="closed" value="true" />
+      <created>1761855543213</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1761855543213</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Implement Delete Marked todo">
+      <option name="closed" value="true" />
+      <created>1761855556101</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1761855556101</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Modify icons for Add and Complete &#10;Include Icons for Edit and Exit.">
+      <option name="closed" value="true" />
+      <created>1761858797726</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1761858797726</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -111,6 +137,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create a basic Scheduler WebApp" />
     <MESSAGE value="Implement &quot;Add Todo&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement &quot;Add Todo&quot;" />
+    <MESSAGE value="Implement Delete Marked todo" />
+    <MESSAGE value="Modify icons for Add and Complete &#10;Include Icons for Edit and Exit." />
+    <option name="LAST_COMMIT_MESSAGE" value="Modify icons for Add and Complete &#10;Include Icons for Edit and Exit." />
   </component>
 </project>

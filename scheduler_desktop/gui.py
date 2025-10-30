@@ -29,7 +29,7 @@ exit_button = functions.create_image_button('close.png', size=2, mouseover_color
 
 '''Create the window instance'''
 
-window = sg.Window("My Scheduler App",
+window = sg.Window("My scheduler_desktop App",
                    layout= [[clock],[label],
                             [input_box,add_button],
                             [list_box], [edit_button, complete_button, exit_button]],
