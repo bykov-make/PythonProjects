@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12763f89-1606-440f-8a1f-68e21f43c1e1" name="Changes" comment="Modify icons for Add and Complete &#10;Include Icons for Edit and Exit.">
-      <change beforePath="$PROJECT_DIR$/.idea/PythonProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_projects.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="12763f89-1606-440f-8a1f-68e21f43c1e1" name="Changes" comment="Renamed projects and files for adherence to PEP-8">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheduler_desktop/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheduler_web/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python_projects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_projects.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scheduler/files/images/add.png" beforeDir="false" afterPath="$PROJECT_DIR$/scheduler_desktop/files/images/add.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scheduler/files/images/close.png" beforeDir="false" afterPath="$PROJECT_DIR$/scheduler_desktop/files/images/close.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scheduler/files/images/complete.png" beforeDir="false" afterPath="$PROJECT_DIR$/scheduler_desktop/files/images/complete.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scheduler/files/images/edit.png" beforeDir="false" afterPath="$PROJECT_DIR$/scheduler_desktop/files/images/edit.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scheduler/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/scheduler_desktop/functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scheduler/gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/scheduler_desktop/gui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchedulerWebApp/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/scheduler_web/functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchedulerWebApp/schedulerWeb.py" beforeDir="false" afterPath="$PROJECT_DIR$/scheduler_web/scheduler_web.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,17 +47,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.functions.executor&quot;: &quot;Run&quot;,
-    &quot;Python.gui.executor&quot;: &quot;Run&quot;,
-    &quot;Python.schedulerWeb.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/bykov/PycharmProjects/PythonProjects/SchedulerWebApp&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.functions.executor": "Run",
+    "Python.gui.executor": "Run",
+    "Python.schedulerWeb.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/bykov/PycharmProjects/python_projects",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\bykov\PycharmProjects\PythonProjects\SchedulerWebApp" />
@@ -128,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761858797726</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Renamed projects and files for adherence to PEP-8">
+      <option name="closed" value="true" />
+      <created>1761865469834</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1761865469834</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -139,6 +143,7 @@
     <MESSAGE value="Implement &quot;Add Todo&quot;" />
     <MESSAGE value="Implement Delete Marked todo" />
     <MESSAGE value="Modify icons for Add and Complete &#10;Include Icons for Edit and Exit." />
-    <option name="LAST_COMMIT_MESSAGE" value="Modify icons for Add and Complete &#10;Include Icons for Edit and Exit." />
+    <MESSAGE value="Renamed projects and files for adherence to PEP-8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Renamed projects and files for adherence to PEP-8" />
   </component>
 </project>
